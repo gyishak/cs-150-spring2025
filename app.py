@@ -21,11 +21,11 @@ print(df.loc[:, ['age', 'cardio']])
 df['age'] = 16
 print(df)
 
-# df.loc[1:,'age'] = 16
-# print(df)
-#
-# df.loc[:,'friend'] = 'Alice'
-# print(df)
-#
-# df.loc[:,'friend'] = 'Alice'
-# print(df)
+df.loc[1:,'age'] = 16
+print(df)
+
+df.loc[:,'friend'] = 'Alice'
+print(df)
+
+df.loc[:,'friend'] = 'Alice'
+print(df)
